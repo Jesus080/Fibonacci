@@ -1,0 +1,63 @@
+/* Selector universal:todas las etiquetas*/
+*{
+    margin: 0;
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;*/
+    padding: 0;
+}
+
+/*Selector de etiquetas*/
+body{
+    background: #004D40 ; /*Color de fondo*/
+}
+h3{
+    color:rgb(53, 53, 52); /*Color de letra*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+h5{
+    text-align: center;
+}
+
+/*Selector de clase*/
+.content-form{ 
+    width: 550px; /*tamano ancho*/
+    background:darkseagreen;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid lightgoldenrodyellow;/*grosor-stilo y color borde*/
+    border-radius: 15px; /*redondear esquinas*/
+    padding: 30px;
+    box-shadow: 10px 15px 40px #fbe9e7; /*Sobreado alrededor*/
+}
+.controles{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding: 5px;
+    border: 3px solid lightgoldenrodyellow;
+    border-radius: 10px;
+}
+/*selector id*/
+#botones{
+    background: darkkhaki;
+    color: darkcyan;
+   
+     
+}
+#botones:hover{
+    background:goldenrod;
+    cursor: pointer;
+    color: lightgoldenrodyellow;
+    
+}
+select{
+    border: 5px solid lightgoldenrodyellow;/*grosor-stilo y color borde*/
+    border-radius: 15px; /*redondear esquinas*/
+    background:darkkhaki ;
+    color: darkolivegreen;
+}
