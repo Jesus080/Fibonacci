@@ -1,4 +1,5 @@
 /*Recibir el id del formulario para poder manipular */
+/*Programas faciles pero mejorando la logica de programacion*/ 
 const FRM_CALCULAR = document.querySelector("#frmCalcula");
 
 /*Genereamos el evento del formulario por el medio del boton submit*/
